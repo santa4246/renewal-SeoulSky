@@ -1,0 +1,513 @@
+/* main */
+/* about seoul sky */
+.about_seoul_sky_main{height: 1000px;}
+.road_main{display: none;height: 1450px;}
+.adv_main{display: none;height: 2400px;}
+.about_s {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+.about_s>ul>li{
+  cursor: pointer;
+}
+.about_s>ul>li:hover {
+  border-top: 3px solid #f39800;
+}
+.cont_about_seoul_sky {
+  font-size: 24px;
+  text-align: center;
+  border-top: 3px solid #00a1e9;
+  width: 308px;
+  height: 31px;
+  margin: 95px 129px 0 9px;
+  float: left;
+}
+.cont_road {
+  font-size: 24px;
+  text-align: center;
+  border-top: 3px solid #00a1e9;
+  width: 308px;
+  height: 31px;
+  margin: 95px 129px 0 0;
+  float: left;
+}
+.cont_adv {
+  font-size: 24px;
+  text-align: center;
+  border-top: 3px solid #00a1e9;
+  margin-top: 95px;
+  width: 308px;
+  height: 31px;
+  float: left;
+}
+
+/* about_seoul_sky */
+.lotte_tower_img {
+  width: 413px;
+  height: 620px;
+  background: url(../images/about_seoul_sky/seoulsky_img.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 396px;
+  top: 217px;
+}
+.about_s_s {
+  position: absolute;
+  top: 292px;
+  left: 10px;
+}
+.about_s_s h3 {
+  width: 195px;
+  height: 22px;
+  background: url(../images/about_seoul_sky/about_s_s_cont.jpg);
+  text-indent: -9999px;
+}
+.about_s_s p {
+  width: 358px;
+  height: 111px;
+  background: url(../images/about_seoul_sky/about_s_s_cont_cont.jpg);
+  text-indent: -9999px;
+}
+.pride {
+  position: absolute;
+  top: 581px;
+  left: 10px;
+}
+.pride h3 {
+  width: 170px;
+  height: 22px;
+  background: url(../images/about_seoul_sky/pride_cont.jpg);
+  text-indent: -9999px;
+}
+.pride p {
+  width: 348px;
+  height: 112px;
+  background: url(../images/about_seoul_sky/pride_cont_cont.jpg);
+  text-indent: -9999px;
+}
+.desc {
+  width: 350px;
+  height: 40px;
+  background: url(../images/about_seoul_sky/a_cont.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  top: 498px;
+  left: 852px;
+}
+.sub_ill {
+  width: 317px;
+  height: 206px;
+  background: url(../images/about_seoul_sky/sub_ill.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  top: 645px;
+  left: 850px;
+}
+
+/* road_main */
+.road_main_map{
+  width: 1200px;
+  height: 612px;
+  background: url(../images/about_seoul_sky/road_main_map.jpg);
+  text-indent: -9999px;
+  position: relative;
+  top: 200px;
+}
+.by_subway{
+  width: 99px;
+  height: 34px;
+  background: url(../images/about_seoul_sky/by_subway.jpg);
+  text-indent: -9999px;
+  margin: 250px 0 40px;
+}
+.road_place{width: 400px;height: 160px;}
+.line_2{
+  width: 50px;
+  height: 22px;
+  color: #da4689;
+  font-size: 18px;
+  text-align: center;
+  border: 3px solid #da4689;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+.by_subway_list{
+  width: 298px;
+  height: 26px;
+  background: url(../images/about_seoul_sky/by_subway_list.jpg);
+  text-indent: -9999px; 
+  float: left;
+  margin-bottom: 20px;
+}
+.line_8{
+  width: 50px;
+  height: 22px;
+  color: #25b830;
+  font-size: 18px;
+  text-align: center;
+  border: 3px solid #25b830;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+.by_subway_list2{
+  width: 282px;
+  height: 26px;
+  background: url(../images/about_seoul_sky/by_subway_list2.jpg);
+  text-indent: -9999px; 
+  float: left;
+}
+
+/* by_bus */
+.by_bus{
+  width: 65px;
+  height: 34px;
+  background: url(../images/about_seoul_sky/by_bus.jpg);
+  text-indent: -9999px; 
+  margin: 40px 0 33px;
+}
+.road_place2{
+  height: 200px;
+}
+.bus_height{
+  height: 28px;
+  margin-bottom: 20px;
+}
+.bus_num1{
+  width: 70px;
+  height: 22px;
+  color: #28a62e;
+  font-size: 18px;
+  text-align: center;
+  border: 3px solid #28a62e;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+.by_bus_list{
+  width: 517px;
+  height: 24px;
+  background: url(../images/about_seoul_sky/by_bus_list.jpg);
+  text-indent: -9999px; 
+  float: left;
+  margin-right: 39px;
+}
+.bus_num2{
+  width: 70px;
+  height: 22px;
+  color: #2d66dd;
+  font-size: 18px;
+  text-align: center;
+  border: 3px solid #2d66dd;
+  border-radius: 5px;
+  float: left;
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+}
+.by_bus_list2{
+  width: 472px;
+  height: 24px;
+  background: url(../images/about_seoul_sky/by_bus_list2.jpg);
+  text-indent: -9999px; 
+  float: left;
+}
+.bus_num3{
+  width: 70px;
+  height: 22px;
+  color: #cb171a;
+  font-size: 18px;
+  text-align: center;
+  border: 3px solid #cb171a;
+  border-radius: 5px;
+  float: left;
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+}
+.by_bus_list3{
+  width: 198px;
+  height: 24px;
+  background: url(../images/about_seoul_sky/by_bus_list3.jpg);
+  text-indent: -9999px; 
+  float: left;
+  margin-right: 359px;
+}
+.bus_num4{
+  width: 70px;
+  height: 22px;
+  color: #9f319c;
+  font-size: 18px;
+  text-align: center;
+  border: 3px solid #9f319c;
+  border-radius: 5px;
+  float: left;
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+}
+.by_bus_list4{
+  width: 268px;
+  height: 24px;
+  background: url(../images/about_seoul_sky/by_bus_list4.jpg);
+  text-indent: -9999px; 
+  float: left;
+}
+.parking{
+  width: 99px;
+  height: 34px;
+  background: url(../images/about_seoul_sky/parking.jpg);
+  text-indent: -9999px;
+  margin-bottom: 40px;
+}
+.parking_desc{
+  width: 601px;
+  height: 20px;
+  background: url(../images/about_seoul_sky/parking_desc.jpg);
+  text-indent: -9999px;
+}
+.parking_desc2{
+  width: 508px;
+  height: 78px;
+  background: url(../images/about_seoul_sky/parking_desc2.jpg);
+  text-indent: -9999px;
+}
+
+/* adv_main */
+.adv_main{
+  position: relative;
+  top: 250px;
+}
+.adv_title{
+  width: 148px;
+  height: 38px;
+  background: url(../images/about_seoul_sky/adv_title.jpg);
+  text-indent: -9999px;
+  margin-bottom: 30px;
+}
+.adv_desc{
+  width: 735px;
+  height: 20px;
+  background: url(../images/about_seoul_sky/adv_desc.jpg);
+  text-indent: -9999px;
+  margin-bottom: 50px;
+}
+
+.adv_enter{
+  width: 274px;
+  height: 34px;
+  background: url(../images/about_seoul_sky/adv_enter.jpg);
+  text-indent: -9999px;
+}
+.adv_enter_img{
+  width: 1200px;
+  height: 432px;
+  background: url(../images/about_seoul_sky/adv_enter_img.jpg);
+  text-indent: -9999px;
+  margin-bottom: 25px;
+}
+.adv_enter_desc{
+  width: 400px;
+  height: 108px;
+  background: url(../images/about_seoul_sky/adv_enter_desc.jpg);
+  text-indent: -9999px;
+  margin-bottom: 50px;
+}
+
+.seoulsky_in{
+  width: 274px;
+  height: 34px;
+  background: url(../images/about_seoul_sky/seoulsky_in.jpg);
+  text-indent: -9999px;
+}
+.b1b2{
+  height: 405px;
+  margin-bottom: 25px;
+}
+.in_b1f{
+  width: 595px;
+  height: 405px;
+  background: url(../images/about_seoul_sky/in_b1f.jpg);
+  text-indent: -9999px;
+  float: left;
+  margin-right: 10px;
+}
+.in_b2f{
+  width: 595px;
+  height: 405px;
+  background: url(../images/about_seoul_sky/in_b2f.jpg);
+  text-indent: -9999px;
+  float: left;
+}
+.in_desc{
+  width: 242px;
+  height: 108px;
+  background: url(../images/about_seoul_sky/in_desc.jpg);
+  text-indent: -9999px;
+  margin-bottom: 50px;
+}
+
+.seoulsky_ev{
+  width: 268px;
+  height: 37px;
+  background: url(../images/about_seoul_sky/seoulsky_ev.jpg);
+  text-indent: -9999px;
+}
+.evimg{
+  height: 405px;
+  margin-bottom: 50px;
+}
+.ev_img{
+  width: 595px;
+  height: 405px;
+  background: url(../images/about_seoul_sky/ev_img.jpg);
+  text-indent: -9999px;
+  margin-right: 10px;
+  float: left;
+}
+.ev_content{
+  width: 595px;
+  height: 405px;
+  background: url(../images/about_seoul_sky/ev_content.jpg);
+  text-indent: -9999px;
+  float: left;
+}
+.ev_desc{
+  width: 293px;
+  height: 138px;
+  background: url(../images/about_seoul_sky/ev_desc.jpg);
+  text-indent: -9999px;
+  margin-bottom: 50px;
+}
+
+.ask_adv{
+  width: 130px;
+  height: 34px;
+  background: url(../images/about_seoul_sky/ask_adv.jpg);
+  text-indent: -9999px;
+  margin-bottom: 25px;
+}
+.ask_desc{
+  width: 464px;
+  height: 26px;
+  background: url(../images/about_seoul_sky/ask_desc.jpg);
+  text-indent: -9999px;
+  float: left;
+}
+.ask_btn{
+  width: 131px;
+  height: 18px;
+  background: url(../images/about_seoul_sky/ask_btn.jpg) center no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin-left: 25px;
+  border: 3px solid #3a6b8b;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+/* sight tour */
+.content_sight_tour{
+  width: 1200px;
+  margin: auto;
+}
+.sight_tour {
+  width: 189px;
+  height: 33px;
+  background: url(../images/about_seoul_sky/sight_tour.jpg);
+  text-indent: -9999px;
+  margin: 228px auto 25px;
+}
+.tour_desc {
+  width: 242px;
+  height: 40px;
+  background: url(../images/about_seoul_sky/tour_desc.jpg);
+  text-indent: -9999px;
+  margin: 0 auto 64px;
+}
+
+/* logo */
+.logo_array {
+  width: 1200px;
+  height: 330px;
+  margin: 0 auto 146px;
+}
+.logo_txt {
+  width: 79px;
+  height: 33px;
+  background: url(../images/about_seoul_sky/logo_txt.jpg);
+  text-indent: -9999px;
+  margin: 147px auto 0;
+}
+.logo_image {
+  width: 126px;
+  height: 215px;
+  background: url(../images/about_seoul_sky/logo_image.jpg) no-repeat left;
+  text-indent: -9999px;
+  float:left;
+  margin: 82px 0 0 70px;
+}
+.naming {
+  width: 66px;
+  height: 13px;
+  background: url(../images/about_seoul_sky/naming.jpg);
+  text-indent: -9999px;
+  margin-top:58px
+}
+.naming_seoul {
+  width: 153px;
+  height: 20px;
+  background: url(../images/about_seoul_sky/naming_seoul.jpg);
+  text-indent: -9999px;
+  margin-top:37px
+}
+.naming_desc {
+  width: 293px;
+  height: 14px;
+  background: url(../images/about_seoul_sky/naming_desc.jpg);
+  text-indent: -9999px;
+  margin-top:13px
+}
+.bi {
+  width: 18px;
+  height: 13px;
+  background: url(../images/about_seoul_sky/bi.jpg);
+  text-indent: -9999px;
+  margin-top:58px;
+}
+.bi_uplifting {
+  width: 125px;
+  height: 20px;
+  background: url(../images/about_seoul_sky/bi_uplifting.jpg);
+  text-indent: -9999px;
+  margin-top:37px
+}
+.bi_desc {
+  width: 367px;
+  height: 35px;
+  background: url(../images/about_seoul_sky/bi_desc.jpg);
+  text-indent: -9999px;
+  margin-top: 13px;
+}
+.naming_array{
+  width:293px;
+  height:215px;
+  float:left;
+  margin:82px 60px 0 94px;
+}
+.bi_array{
+  width:367px;
+  height:215px;
+  float:left;
+  margin: 82px 0 0 102px;
+}

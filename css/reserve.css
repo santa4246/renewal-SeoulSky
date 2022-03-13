@@ -1,0 +1,341 @@
+/* main */
+.list{
+  width: 746px;
+  height: 24px;
+  margin: 92px auto 0;
+}
+.reser{
+  width: 309px;
+  height: 34px;
+  background: url(../images/reserve/reser.jpg) no-repeat center;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 129px;
+  border-top: 3px solid #00a1e9;
+}
+.my_p{
+  width: 308px;
+  height: 34px;
+  background: url(../images/reserve/my_p.jpg);
+  text-indent: -9999px;
+  float: left;
+  border-top: 3px solid #00a1e9;
+}
+.list li{
+  cursor: pointer;
+}
+.list li:hover{
+  border-top: 3px solid #f39800;
+}
+
+/* reserve_main */
+.reserve_bg{
+  height: 980px;
+  background: #ededed;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-top: 109px;
+  box-sizing: border-box;
+}
+.reserve_array{
+  width: 1200px;
+  margin: auto;
+}
+.first_array{
+  height: 281px;
+  margin-bottom: 100px;
+}
+.second_array{
+  height: 281px;
+}
+.reserve_main{
+  width: 172px;
+  height: 34px;
+  background: url(../images/reserve/reserve_main.jpg);
+  text-indent: -9999px;
+}
+dl{
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+.contbox_1{
+  width: 270px;
+  height: 281px;
+  background: url(../images/reserve/cont_1.jpg) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.contbox_1 dt{
+  width: 154px;
+  height: 23px;
+  background: url(../images/reserve/ticket_easy.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 3px;
+  bottom: 60px;
+}
+.payco{
+  width: 121px;
+  height: 14px;
+  background: url(../images/reserve/payco.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 40px;
+}
+.price_1{
+  width: 90px;
+  height: 24px;
+  background: url(../images/reserve/price_1.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 0;
+}
+
+.contbox_2{
+  width: 270px;
+  height: 281px;
+  background: url(../images/reserve/cont_1.jpg) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.contbox_2 dt{
+  width: 154px;
+  height: 23px;
+  background: url(../images/reserve/ticket_card.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 3px;
+  bottom: 60px;
+}
+.lotte_card{
+  width: 105px;
+  height: 14px;
+  background: url(../images/reserve/lotte_card.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 40px;
+}
+.price_2{
+  width: 90px;
+  height: 24px;
+  background: url(../images/reserve/price_2.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 0;
+}
+
+.contbox_3{
+  width: 270px;
+  height: 281px;
+  background: url(../images/reserve/cont_1.jpg) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.contbox_3 dt{
+  width: 184px;
+  height: 24px;
+  background: url(../images/reserve/ticket_online.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 3px;
+  bottom: 60px;
+}
+.online_mobile{
+  width: 139px;
+  height: 15px;
+  background: url(../images/reserve/online_mobile.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 40px;
+}
+.price_3{
+  width: 92px;
+  height: 24px;
+  background: url(../images/reserve/price_3.jpg);
+  position: absolute;
+  left: 6px;
+  bottom: 0;
+}
+
+.contbox_4{
+  width: 270px;
+  height: 281px;
+  background: url(../images/reserve/cont_2.jpg) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  position: relative;
+}
+.contbox_4 dt{
+  width: 139px;
+  height: 24px;
+  background: url(../images/reserve/ticket_package.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 3px;
+  bottom: 60px;
+}
+.aqua_package{
+  width: 120px;
+  height: 15px;
+  background: url(../images/reserve/aqua_package.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 40px;
+}
+.price_4{
+  width: 92px;
+  height: 24px;
+  background: url(../images/reserve/price_4.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 0;
+}
+
+.contbox_5{
+  width: 270px;
+  height: 281px;
+  background: url(../images/reserve/cont_3.jpg) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.contbox_5 dt{
+  width: 240px;
+  height: 23px;
+  background: url(../images/reserve/ticket_sky_bridege.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 3px;
+  bottom: 60px;
+}
+.contbox_5 dd{
+  width: 47px;
+  height: 20px;
+  background: url(../images/reserve/normal.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 32px;
+}
+
+.contbox_6{
+  width: 270px;
+  height: 281px;
+  background: url(../images/reserve/cont_3.jpg) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.contbox_6 dt{
+  width: 240px;
+  height: 23px;
+  background: url(../images/reserve/ticket_sky_bridege.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 3px;
+  bottom: 60px;
+}
+.contbox_6 dd{
+  width: 66px;
+  height: 19px;
+  background: url(../images/reserve/special.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 32px;
+}
+
+.contbox_7{
+  width: 270px;
+  height: 281px;
+  background: url(../images/reserve/cont_4.jpg) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.contbox_7 dt{
+  width: 183px;
+  height: 23px;
+  background: url(../images/reserve/ticket_package2.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 3px;
+  bottom: 60px;
+}
+.lounge_package{
+  width: 156px;
+  height: 14px;
+  background: url(../images/reserve/lounge_package.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 40px;
+}
+.price_5{
+  width: 105px;
+  height: 24px;
+  background: url(../images/reserve/price_5.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 0;
+}
+
+.contbox_8{
+  width: 270px;
+  height: 281px;
+  background: url(../images/reserve/cont_4.jpg) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  position: relative;
+}
+.contbox_8 dt{
+  width: 183px;
+  height: 23px;
+  background: url(../images/reserve/ticket_package4.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 3px;
+  bottom: 60px;
+}
+.lounge_package2{
+  width: 156px;
+  height: 14px;
+  background: url(../images/reserve/lounge_package.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 40px;
+}
+.price_6{
+  width: 105px;
+  height: 24px;
+  background: url(../images/reserve/price_6.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 6px;
+  bottom: 0;
+}
+
+/* cont_mypage */
+
+.cont_mypage{
+  width: 1200px;
+  margin: auto;
+  display: none;
+}

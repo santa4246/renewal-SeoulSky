@@ -1,0 +1,108 @@
+/* content */
+.hr1{margin-top: 50px;}
+.hr2{margin: 250px 0 40px;}
+fieldset{
+  border: 0px;
+}
+input{
+  border: none;
+  border-bottom: 1px solid #969696;
+  font-size: 18px;
+  color: #969696;
+  outline: none;
+}
+.content{
+  width: 700px;
+  margin: 150px auto 0;
+  position: relative;
+  left: 120px;
+}
+legend{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.login_id{
+  margin: 10px 0 10px 0;
+}
+.u_id{
+  margin-right: 15px;
+}
+.u_pwd{
+  margin-right: 8px;
+}
+.login_btn{
+  width: 100px;
+  height: 70px;
+  border: 1px solid #969696;
+  border-radius: 5px;
+  background-color: #fbfbfb;
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  left: 300px;
+  top: 40px;
+}
+.login_btn:hover{
+  background-color: #969696;
+}
+.search_id{
+  float: left;
+  margin-right: 15px;
+}
+.search_pwd{
+  float: left;
+  margin-right: 15px;
+}
+.login_join_member{
+  float: left;
+}
+.login_search{
+  height: 17px;
+  position: relative;
+  left: 12px;
+  top: 23px;
+}
+.naver{
+  text-align: center;
+  width: 40px;
+  height: 38px;
+  background-color: #00c73c;;
+  font-size: 30px;
+  float: left;
+  margin-right: 30px;
+}
+.naver a{
+  display: block;
+  height: 100%;
+  color:#fff
+}
+.facebook{
+  text-align: center;
+  width: 40px;
+  height: 38px;
+  background-color: #1877f2;
+  font-size: 30px;
+  float: left;
+  margin-right: 30px;
+}
+.facebook a{
+  display: block;
+  height: 100%;
+  color: #fff;
+}
+.kakao{
+  text-align: center;
+  width: 40px;
+  height: 38px;
+  background-color: #ffdc00;
+  font-size: 30px;
+  float: left;
+}
+.kakao a{
+  display: block;
+  height: 100%;
+  color: #40282a;
+}
+.other_login{
+  margin: 70px 0 0 100px;
+}

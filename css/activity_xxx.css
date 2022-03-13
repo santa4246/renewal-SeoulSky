@@ -1,0 +1,72 @@
+.activity{
+  width: 1200px;
+  margin: auto;
+}
+.activity h2{
+  width: 142px;
+  height: 33px;
+  background: url(../images/activity/activity.jpg);
+  text-indent: -9999px;
+}
+.act_desc{
+  width: 1145px;
+  height: 46px;
+  background: url(../images/activity/act_desc.jpg);
+  text-indent: -9999px;
+}
+.act_attr{
+  width: 309px;
+  height: 29px;
+  background: url(../images/activity/act_attr.jpg);
+  text-indent: -9999px;
+}
+.attr_list1{
+  width: 73px;
+  height: 17px;
+  background: url(../images/activity/attr_list1.png);
+  text-indent: -9999px;
+}
+.attr_list1_img{
+  width: 1200px;
+  height: 504px;
+  background: url(../images/activity/attr_list1_img.jpg);
+  text-indent: -9999px;
+}
+.attr_list2{
+  width: 88px;
+  height: 17px;
+  background: url(../images/activity/attr_list2.png);
+  text-indent: -9999px;
+}
+.attr_list3{
+  width: 74px;
+  height: 17px;
+  background: url(../images/activity/attr_list3.png);
+  text-indent: -9999px;
+}
+.attr_list4{
+  width: 91px;
+  text-indent: -9999px;
+  height: 17px;
+  background: url(../images/activity/attr_list4.png);
+}
+.attr_list5{
+  width: 43px;
+  height: 17px;
+  background: url(../images/activity/attr_list5.png);
+  text-indent: -9999px;
+}
+
+.act_tour{
+  width: 308px;
+  height: 29px;
+  background: url(../images/activity/act_tour.jpg);
+  text-indent: -9999px;
+}
+
+.act_sb{
+  width: 309px;
+  height: 29px;
+  background: url(../images/activity/act_sb.jpg);
+  text-indent: -9999px;
+}

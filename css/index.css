@@ -1,0 +1,764 @@
+/* top_menu */
+.top_menu ul{
+  position: absolute;
+  right: 10px;
+  z-index: 2;
+}
+.top_menu li{
+  float: left;
+}
+.top_menu>ul>li>a{
+  display: block;
+  height: 100%;
+}
+.top_login{
+  width: 33px;
+  height: 12px;
+  background: url(../images/gnb/top_login.png);
+  text-indent: -9999px;
+  margin: 10px 10px 0px 0px;
+}
+.top_join_member{
+  width: 44px;
+  height: 12px;
+  background: url(../images/gnb/top_join_member.png);
+  text-indent: -9999px;
+  margin: 10px 10px 0;
+}
+.top_site_map{
+  width: 44px;
+  height: 12px;
+  background: url(../images/gnb/top_site_map.png);
+  text-indent: -9999px;
+  margin: 10px 0 0 10px;
+}
+.top_logout{
+  width: 45px;
+  height: 12px;
+  background: url(../images/gnb/top_logout.png);
+  text-indent: -9999px;
+  margin: 10px 10px 0px 0px;
+}
+.top_edit{
+  width: 67px;
+  height: 12px;
+  background: url(../images/gnb/top_edit.png);
+  text-indent: -9999px;
+  margin: 10px 10px 0;
+}
+
+
+/* main */
+
+.main_news{
+  width: 1200px;
+  height: 741px;
+  background: url(../images/main.jpg) no-repeat center top;
+  text-indent: -9999px;
+  margin: 49px auto 72px;
+}
+.main_news2{
+  width: 1200px;
+  height: 741px;
+  background: url(../images/main2.jpg) no-repeat center top;
+  text-indent: -9999px;
+  margin: 49px auto 72px;
+}
+.main_news3{
+  width: 1200px;
+  height: 741px;
+  background: url(../images/main3.jpg) no-repeat center top;
+  text-indent: -9999px;
+  margin: 49px auto 72px;
+}
+.main_news4{
+  width: 1200px;
+  height: 741px;
+  background: url(../images/main4.jpg) no-repeat center top;
+  text-indent: -9999px;
+  margin: 49px auto 72px;
+}
+
+/* short_cut */
+.short_cut{
+  width: 1200px;
+  margin: auto;
+}
+.short_cut_bg{
+  height: 232px;
+  background: #eee;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+.short_cut a{
+  display: block;
+  height: 100%;
+}
+.info dt{
+  font-size: 28px;
+  padding-top: 10px;
+}
+.ticket dt{
+  font-size: 28px;
+  padding-top: 30px;
+}
+.event dt{
+  font-size: 28px;
+  padding-top: 20px;
+}
+.info{
+  width: 355px;
+  height: 109px;
+  background: url(../images/book.jpg) no-repeat right;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 68px;
+}
+.ticket{
+  width: 420px;
+  height: 159px;
+  background: url(../images/tic.jpg) no-repeat right;
+  box-sizing: border-box;
+  float: left;
+  margin: -25px 68px 0 0;
+}
+.event{
+  width: 289px;
+  height: 122px;
+  background: url(../images/box.jpg) no-repeat right;
+  box-sizing: border-box;
+  float: left;
+}
+
+
+/* about seoul sky */
+.a_sky{
+  width: 1200px;
+  margin: auto;
+}
+.a_sky_bg{
+  height: 806px;
+  background:url(../images/a_sky_bg.jpg) repeat-x top;
+  padding-top: 125px;
+  box-sizing: border-box;
+}
+.a_sky h2{
+  width: 292px;
+  height: 33px;
+  background: url(../images/cont_about.jpg);
+  text-indent: -9999px;
+  margin-bottom: 43px;
+}
+.a_sky p{
+  width: 480px;
+  height: 106px;
+  background: url(../images/cont_about_desc.jpg);
+  text-indent: -9999px;
+  margin-top: 20px;
+}
+.a_sky img{
+  margin-right: 30px;
+}
+
+
+/* activity */
+.activity_bg{
+  height: 1036px;
+  background: url(../images/activity_bg.jpg) repeat-x top;
+  padding-top: 90px;
+  box-sizing: border-box;
+}
+.activity{
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+.activity h2{
+  width: 142px;
+  height: 33px;
+  background: url(../images/cont_activity.jpg);
+  text-indent: -9999px;
+  margin-bottom: 32px;
+}
+.act_desc{
+  width: 1146px;
+  height: 46px;
+  background: url(../images/cont_activity_desc.jpg);
+  text-indent: -9999px;
+  margin-bottom: 29px;
+}
+.activity>ul{
+  width: 1040px;
+  margin: auto;
+}
+.activity>ul>li{
+  border-top: 2px solid #00a1e9;
+  margin-top: 60px;
+}
+.activity>ul>li:hover{
+  border-top: 2px solid #f39800;
+}
+.activity ul>li>a{
+  display: block;
+  height: 100%;
+}
+
+.attr{
+  width: 309px;
+  height: 29px;
+  background: url(../images/cont_attr.jpg);
+  text-indent: -9999px;
+  margin-right: 57px;
+  float: left;
+}
+.tour{
+  width: 308px;
+  height: 29px;
+  background: url(../images/cont_tour.jpg);
+  text-indent: -9999px;
+  margin-right: 57px;
+  float: left;
+}
+.sky_br{
+  width: 309px;
+  height: 29px;
+  background: url(../images/cont_sky_br.jpg);
+  text-indent: -9999px;
+  float: left;
+}
+.attr_content li{
+  position: absolute;
+  top: 404px;
+  left: 710px;
+}
+.tour_content li{
+  position: absolute;
+  top: 404px;
+  left: 710px;
+}
+.sky_br_content li{
+  position: absolute;
+  top: 404px;
+  left: 710px;
+}
+
+/* activity_attraction */
+/* .attr_1, */.attr_2,.attr_3,.attr_4,.attr_5{
+  display: none;
+}
+.sky_deck{
+  width: 594px;
+  height: 378px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.floor_118{
+  width: 53px;
+  height: 20px;
+  background: url(../images/floor_118.jpg);
+  text-indent: -9999px;
+  margin-bottom: 27px;
+}
+.sky_deck_imp{
+  width: 160px;
+  height: 35px;
+  background: url(../images/sky_deck_imp.jpg);
+  text-indent: -9999px;
+}
+.sky_deck_desc{
+  width: 362px;
+  height: 43px;
+  background: url(../images/sky_deck_desc.jpg);
+  text-indent: -9999px;
+  margin-top: 17px;
+}
+
+.sky_terrace{
+  width: 594px;
+  height: 378px;
+  background: url(../images/sky_terrace.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.floor_120{
+  width: 53px;
+  height: 20px;
+  background: url(../images/floor_120.jpg);
+  text-indent: -9999px;
+  margin-bottom: 27px;
+}
+.sky_terrace_imp{
+  width: 192px;
+  height: 35px;
+  background: url(../images/sky_terrace_imp.jpg);
+  text-indent: -9999px;
+  margin-bottom: 17px;
+}
+.sky_terrace_nor{
+  width: 357px;
+  height: 43px;
+  background: url(../images/sky_terrace_nor.jpg);
+  text-indent: -9999px;
+}
+
+.sky_shuttle{
+  width: 594px;
+  height: 378px;
+  background: url(../images/sky_shuttle.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.sky_shuttle_imp{
+  width: 160px;
+  height: 35px;
+  background: url(../images/sky_shuttle_imp.jpg);
+  text-indent: -9999px;
+  margin: 50px 0 17px;
+}
+.sky_shuttle_nor{
+  width: 413px;
+  height: 70px;
+  background: url(../images/sky_shuttle_nor.jpg);
+  text-indent: -9999px;
+}
+
+.media_table{
+  width: 594px;
+  height: 378px;
+  background: url(../images/media_table.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.media_table_imp{
+  width: 197px;
+  height: 35px;
+  background: url(../images/media_table_imp.jpg);
+  text-indent: -9999px;
+  margin: 50px 0 17px;
+}
+.media_table_nor{
+  width: 435px;
+  height: 70px;
+  background: url(../images/media_table_nor.jpg);
+  text-indent: -9999px;
+}
+
+.pic{
+  width: 594px;
+  height: 378px;
+  background: url(../images/pic.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.pic_imp{
+  width: 401px;
+  height: 51px;
+  background: url(../images/pic_imp.jpg);
+  text-indent: -9999px;
+  margin: 50px 0 17px;
+}
+.pic_nor{
+  width: 215px;
+  height: 70px;
+  background: url(../images/pic_nor.jpg);
+  text-indent: -9999px;
+}
+
+
+/* activity_sub images */
+/* .sky_deck_sb{
+  width: 155px;
+  height: 98px;
+}
+.sky_terr_sb{
+  width: 155px;
+  height:98px;
+}
+.sky_ptzone_sb{
+  width: 155px;
+  height: 98px;
+}
+.sky_media_table_sb{
+  width: 155px;
+  height: 98px;
+}
+.sky_photo_sb{
+  width: 155px;
+  height: 98px;
+} */
+
+.attr_sub_images{
+  margin-top: 650px;
+}
+.attr_sub_images img{
+  width: 155px;
+  height: 98px;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.tour_sub_images{
+  margin-top: 650px;
+}
+.tour_sub_images img{
+  width: 155px;
+  height: 98px;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+
+/* activity_tour */
+/* .tour_1, */ .tour_2, .tour_3, .tour_4, .tour_5, .tour_6, .tour_7{display:none}
+.sky_garden{
+  width: 594px;
+  height: 378px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.floor_117{
+  width: 53px;
+  height: 18px;
+  background: url(../images/floor_117.png);
+  text-indent: -9999px;
+  margin-bottom: 27px;
+}
+.sky_garden_imp{
+  width: 191px;
+  height: 35px;
+  background: url(../images/sky_garden_imp.jpg);
+  text-indent: -9999px;
+  margin-bottom: 17px;
+}
+.sky_garden_nor{
+  width: 340px;
+  height: 16px;
+  background: url(../images/sky_garden_nor.jpg);
+  text-indent: -9999px;
+}
+
+.sky_map{
+  width: 594px;
+  height: 378px;
+  background: url(../images/sky_map.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.floor_121{
+  width: 53px;
+  height: 19px;
+  background: url(../images/floor_121.png);
+  text-indent: -9999px;
+  margin-bottom: 27px;
+}
+.sky_map_imp{
+  width: 199px;
+  height: 35px;
+  background: url(../images/sky_map_imp.jpg);
+  text-indent: -9999px;
+  margin-bottom: 17px;
+}
+.sky_map_nor{
+  width: 378px;
+  height: 43px;
+  background: url(../images/sky_map_nor.jpg);
+  text-indent: -9999px;
+}
+
+.sky_show{
+  width: 594px;
+  height: 378px;
+  background: url(../images/sky_show.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.floor_117{
+  width: 53px;
+  height: 18px;
+  background: url(../images/floor_117.png);
+  text-indent: -9999px;
+  margin-bottom: 27px;
+}
+.sky_show_imp{
+  width: 248px;
+  height: 39px;
+  background: url(../images/sky_show_imp.jpg);
+  text-indent: -9999px;
+  margin-bottom: 17px;
+}
+.sky_show_nor{
+  width: 378px;
+  height: 43px;
+  background: url(../images/sky_show_nor.jpg);
+  text-indent: -9999px;
+}
+
+.kor_bir{
+  width: 594px;
+  height: 378px;
+  background: url(../images/kor_bir.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.floor_B1{
+  width: 41px;
+  height: 18px;
+  background: url(../images/floor_B1.png);
+  text-indent: -9999px;
+  margin-bottom: 27px;
+}
+.kor_bir_imp{
+  width: 281px;
+  height: 39px;
+  background: url(../images/kor_bir_imp.jpg);
+  text-indent: -9999px;
+  margin-bottom: 17px;
+}
+.kor_bir_nor{
+  width: 392px;
+  height: 124px;
+  background: url(../images/kor_bir_nor.jpg);
+  text-indent: -9999px;
+}
+
+.sky_theater{
+  width: 594px;
+  height: 378px;
+  background: url(../images/sky_theater.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.sky_theater_imp{
+  width: 197px;
+  height: 35px;
+  background: url(../images/sky_theater_imp.jpg);
+  text-indent: -9999px;
+  margin-bottom: 17px;
+}
+.sky_theater_nor{
+  width: 401px;
+  height: 43px;
+  background: url(../images/sky_theater_nor.jpg);
+  text-indent: -9999px;
+}
+
+.sky_shop{
+  width: 594px;
+  height: 378px;
+  background: url(../images/sky_shop.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.floor_B1{
+  width: 41px;
+  height: 18px;
+  background: url(../images/floor_B1.png);
+  text-indent: -9999px;
+  margin-bottom: 27px;
+}
+.sky_shop_imp{
+  width: 292px;
+  height: 29px;
+  background: url(../images/sky_shop_imp.jpg);
+  text-indent: -9999px;
+  margin-bottom: 17px;
+}
+.sky_shop_nor{
+  width: 386px;
+  height: 124px;
+  background: url(../images/sky_shop_nor.jpg);
+  text-indent: -9999px;
+}
+
+.lounge{
+  width: 594px;
+  height: 378px;
+  background: url(../images/lounge.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.floor_123{
+  width: 53px;
+  height: 20px;
+  background: url(../images/floor_123.png);
+  text-indent: -9999px;
+  margin-bottom: 27px;
+}
+.lounge_imp{
+  width: 141px;
+  height: 29px;
+  background: url(../images/lounge_imp.jpg);
+  text-indent: -9999px;
+  margin-bottom: 17px;
+}
+.lounge_nor{
+  width: 371px;
+  height: 43px;
+  background: url(../images/lounge_nor.jpg);
+  text-indent: -9999px;
+}
+
+/* activity_sky_bridge */
+.sky_bridge_tour{
+  width: 594px;
+  height: 378px;
+  background: url(../images/sky_bridge_tour.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: -710px;
+  top: -104px;
+}
+.sky_bridge_tour_imp{
+  width: 269px;
+  height: 35px;
+  background: url(../images/sky_bridge_tour_imp.png);
+  text-indent: -9999px;
+  margin-top: 50px;
+}
+.sky_bridge_tour_nor{
+  width: 339px;
+  height: 43px;
+  background: url(../images/sky_bridge_tour_nor.png);
+  text-indent: -9999px;
+  margin-top: 17px;
+}
+
+.tour_wrap{display: none;}
+.sky_br_wrap{display: none;}
+
+.left{
+  display: block;
+  width: 14px;
+  height: 34px;
+  background: url(../images/left.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  top: 785px;
+  left: 45px;
+}
+.right{
+  display: block;
+  width: 15px;
+  height: 34px;
+  background: url(../images/right.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  top: 785px;
+  left: 532px;
+}
+.detail{
+  width: 84px;
+  height: 16px;
+  background: url(../images/detail.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 1039px;
+  top: 650px;
+}
+
+/* gallery */
+.gallery_bg{
+  height: 675px;
+  background: url(../images/gallery_bg.jpg) repeat-x top;
+  padding-top: 120px;
+  box-sizing: border-box;
+}
+.gallery{
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+.gallery ul{
+  width: 1044px;
+  margin: auto;
+}
+.gallery h2{
+  width: 132px;
+  height: 33px;
+  background: url(../images/cont_gallery.jpg);
+  text-indent: -9999px;
+  margin-bottom: 32px;
+}
+.gallery p{
+  width: 671px;
+  height: 16px;
+  background: url(../images/cont_gallery_desc.jpg);
+  text-indent: -9999px;
+}
+.gallery>ul>li>a{
+  display: block;
+  height: 100%;
+}
+
+.gallery_1{
+  width: 216px;
+  height: 251px;
+  border-top: 3px solid #FFF;
+  padding-top: 10px;
+  box-sizing: border-box;
+  float: left;
+  margin: 52px 60px 0 0;
+}
+.gallery_2{
+  width: 216px;
+  height: 251px;
+  border-top: 3px solid #FFF;
+  padding-top: 10px;
+  box-sizing: border-box;
+  float: left;
+  margin: 52px 60px 0 0;
+}
+.gallery_3{
+  width: 216px;
+  height: 251px;
+  border-top: 3px solid #FFF;
+  padding-top: 10px;
+  box-sizing: border-box;
+  float: left;
+  margin: 52px 60px 0 0;
+}
+.gallery_4{
+  width: 216px;
+  height: 251px;
+  border-top: 3px solid #FFF;
+  padding-top: 10px;
+  box-sizing: border-box;
+  float: left;
+  margin-top: 52px;
+}
+.gallery li:hover{
+  border-top: 3px solid #f39800;
+}
+.more{
+  width: 56px;
+  height: 14px;
+  background: url(../images/more.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 1066px;
+  top: 435px;
+}

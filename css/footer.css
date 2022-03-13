@@ -1,0 +1,51 @@
+  /* footer */
+  .footer_bg{
+  height: 220px;
+  background: #eee;
+}
+.footer_cont{
+  width: 1200px;
+  margin: auto;
+  padding-top: 45px;
+  position: relative;
+}
+footer h2{
+  width: 121px;
+  height: 103px;
+  background: url(../images/lotte.jpg);
+  text-indent: -9999px;
+  position: absolute;
+  left: 128px;
+  top: 60px;
+}
+footer ul{
+  width: 600px;
+  height: 17px;
+  font-size: 14px;
+  margin: auto;
+}
+footer li{
+  float: left;
+}
+.add:after{
+        content:" | ";
+        margin:0 10px 0 5px
+}
+
+.footer_bottom{
+  width: 600px;
+  margin: 33px auto 0;
+  font-weight: normal;
+  overflow: hidden;
+  line-height: 25px;
+}
+.footer_bottom_txt{
+  overflow: hidden;
+}
+.footer_bottom_txt p{
+  float: left;
+}
+.repre:after{
+        content:" | ";
+        margin:0 10px 0 5px
+}

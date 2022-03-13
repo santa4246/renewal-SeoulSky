@@ -1,0 +1,254 @@
+/* header */
+header{
+  width: 1200px;
+  height: 132px;
+  margin: auto;
+  position: relative;
+}
+h1{
+  width: 162px;
+  height: 87px;
+  background: url(../images/gnb/logo.png);
+  text-indent: -9999px;
+  position: absolute;
+  top: 45px;
+  z-index: 5;
+}
+h1 a{
+  display: block;
+  height: 100%;
+}
+
+/* gnb */
+.gnb{
+  width: 1200px;
+  border-top: 1px solid #eee;
+  position: relative;
+  z-index: 1;
+}
+.gnb>ul{
+  width: 685px;
+  margin: 92px auto 20px;
+  height: 19px;
+}
+.gnb>ul>li>a{
+  display: block;
+  height: 100%;
+}
+.gnb_1{
+  width: 107px;
+  height: 19px;
+  background: url(../images/gnb/gnb_1.png) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 30px;
+}
+.gnb_2{
+  width: 107px;
+  height: 19px;
+  background: url(../images/gnb/gnb_2.png) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 64px;
+}
+.gnb_3{
+  width: 107px;
+  height: 19px;
+  background: url(../images/gnb/gnb_3.png) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 64px;
+}
+.gnb_4{
+  width: 107px;
+  height: 19px;
+  background: url(../images/gnb/gnb_4.png) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 30px;
+}
+.gnb_5{
+  width: 67px;
+  height: 19px;
+  background: url(../images/gnb/gnb_5.png) no-repeat;
+  text-indent: -9999px;
+  float: left;
+}
+
+.gnb_bg{
+  background: rgba(118,118,118,0.8);
+  height: 186px;
+  display: none;
+}
+.gnb>ul ul{
+  display: none;
+  width: 200px;
+}
+.gnb>ul>li>ul>li{
+  text-indent: -9999px;
+}
+.gnb>ul>li>ul>li>a{
+  display: block;
+  height: 100%;
+}
+
+.intro li{
+  width: 108px;
+}
+.gnb_about_seoul_sky{
+  margin-top: 36px;
+  width: 107px;
+  height: 15px;
+  background: url(../images/gnb/gnb_about_seoul_sky.png) no-repeat;
+}
+.gnb_road{
+  margin-top: 29px;
+  width: 54px;
+  height: 15px;
+  background: url(../images/gnb/gnb_road.png) no-repeat;
+}
+.gnb_adv{
+  margin-top: 29px;
+  width: 59px;
+  height: 15px;
+  background: url(../images/gnb/gnb_adv.png) no-repeat;
+}
+
+.faci li{
+  width: 108px;
+}
+.gnb_attraction{
+  margin-top: 36px;
+  width: 51px;
+  height: 15px;
+  background: url(../images/gnb/gnb_attraction.png) no-repeat;
+}
+.gnb_int_tour{
+  margin-top: 29px;
+  width: 51px;
+  height: 15px;
+  background: url(../images/gnb/gnb_int_tour.png) no-repeat;
+}
+.gnb_sky_bridge{
+  margin-top: 29px;
+  width: 108px;
+  height: 15px;
+  background: url(../images/gnb/gnb_sky_bridge.png) no-repeat;
+}
+
+.exhibition li{
+  width: 108px;
+}
+.gnb_use{
+  margin-top: 36px;
+  width: 53px;
+  height: 15px;
+  background: url(../images/gnb/gnb_use.png) no-repeat;
+}
+.gnb_events{
+  margin-top: 29px;
+  width: 38px;
+  height: 15px;
+  background: url(../images/gnb/gnb_events.png) no-repeat;
+}
+.gnb_prefer{
+  margin-top: 29px;
+  width: 51px;
+  height: 15px;
+  background: url(../images/gnb/gnb_prefer.png) no-repeat;
+}
+.gnb_group{
+  margin-top: 29px;
+  width: 55px;
+  height: 15px;
+  background: url(../images/gnb/gnb_group.png) no-repeat;
+}
+
+.reservation li{
+  width: 108px;
+}
+.gnb_reserve{
+  margin-top: 36px;
+  width: 67px;
+  height: 15px;
+  background: url(../images/gnb/gnb_reserve.png) no-repeat;
+}
+.gnb_my_page{
+  margin-top: 29px;
+  width: 66px;
+  height: 15px;
+  background: url(../images/gnb/gnb_my_page.png) no-repeat;
+}
+
+.customer_service li{
+  width: 108px;
+}
+.gnb_notice{
+  margin-top: 36px;
+  width: 51px;
+  height: 15px;      
+  background: url(../images/gnb/gnb_notice.png) no-repeat;
+}
+.gnb_faq{
+  margin-top: 29px;
+  width: 28px;
+  height: 15px;
+  background: url(../images/gnb/gnb_faq.png) no-repeat;
+}
+.gnb_customer{
+  margin-top: 29px;
+  width: 80px;
+  height: 15px;
+  background: url(../images/gnb/gnb_customer.png) no-repeat;
+}
+
+/* gnb_hover */
+.gnb_about_seoul_sky:hover{
+  background: url(../images/gnb/gnb_about_seoul_sky_inter.png) no-repeat;
+}
+.gnb_road:hover{
+  background: url(../images/gnb/gnb_road_inter.png) no-repeat;
+}
+.gnb_adv:hover{
+  background: url(../images/gnb/gnb_adv_inter.png) no-repeat;
+}
+
+.gnb_attraction:hover{
+  background: url(../images/gnb/gnb_attraction_inter.png) no-repeat;
+}
+.gnb_int_tour:hover{
+  background: url(../images/gnb/gnb_int_tour_inter.png) no-repeat;
+}
+.gnb_sky_bridge:hover{
+  background: url(../images/gnb/gnb_sky_bridge_inter.png) no-repeat;
+}
+
+.gnb_use:hover{
+  background: url(../images/gnb/gnb_use_inter.png) no-repeat;
+}
+.gnb_events:hover{
+  background: url(../images/gnb/gnb_events_inter.png) no-repeat;
+}
+.gnb_prefer:hover{
+  background: url(../images/gnb/gnb_prefer_inter.png) no-repeat;
+}
+.gnb_group:hover{
+  background: url(../images/gnb/gnb_group_inter.png) no-repeat;
+}
+
+.gnb_reserve:hover{
+  background: url(../images/gnb/gnb_reserve_inter.png) no-repeat;
+}
+.gnb_my_page:hover{
+  background: url(../images/gnb/gnb_my_page_inter.png) no-repeat;
+}
+
+.gnb_notice:hover{
+  background: url(../images/gnb/gnb_notice_inter.png) no-repeat;
+}
+.gnb_faq:hover{
+  background: url(../images/gnb/gnb_faq_inter.png) no-repeat;
+}
+.gnb_customer:hover{
+  background: url(../images/gnb/gnb_customer_inter.png) no-repeat;
+}

@@ -6,3 +6,5 @@
 - HTML, CSS, JS 를 사용하여 웹사이트 구현
 - Jquery 를 사용하여 메인배너, 탭메뉴 기능 구현
 - PHP, MySQL 을 사용하여 회원가입, 로그인 기능 구현
+
+웹사이트 주소 : http://santadot.dothome.co.kr/web/index.php
